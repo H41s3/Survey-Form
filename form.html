@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+    
+</body>
+</html>
+<body>
+    <h1 id="title">This is a Survey about Nothing in Particular</h1>
+    <p id="description" class="description">Hey there!</p>
+    <form id="survey-form"> 
+    <fieldset class="input">
+        <label for="name" id="name-label">What is your name? <input id="name" name="name" type="text" placeholder="Enter your name" required /></label> 
+        <label for="email" id="email-label">What is your email address? <input id="email" name="email" type="email" placeholder="Enter your email" required /> </label>
+        <label for="number" id="number-label">What is your birth year? <input id="number" name="number" type= "birthyear" min="1900" max="2015" placeholder="1999">
+        </label>
+        <label for="contact" id="contact-label">What is your phone number? <input id="contact" name="contact" type="contact" placeholder="Enter your phone number" required /> </label>
+        <label for="instagram" id="instagram-label">Single or Not? <input id="instagram" name="instagram" type="instagram" placeholder="Enter your answer" required /></label>
+    </fieldset>
+
+    <fieldset>   
+        <label>Which one do you like the most?</label>
+            <select id="dropdown">
+            <option value="" disabled selected>Select one</option>
+            <option value="you">👻 you</option>
+            <option value="miong">🤗 miong</option>
+            <option value="iejc">🤭 _____iejc</option>  
+            <option value="all">🤭 All of the choices + the creator of this survey (EJC)</option>
+            </select>
+
+<fieldset>   
+    <label>Which season do you like the least?</label>
+        <select id="dropdown">
+        <option value="" disabled selected>Select one</option>
+        <option value="winter">❄️ Winter</option>
+        <option value="spring">🌸 Spring</option>
+        <option value="summer">🌞 Summer</option>  
+        <option value="autumn">🍁 Autumn</option>
+        </select>
+    
+    <p>How strongly do you feel about your answer?</p>
+    <label for="veryStrongly"><input class="inline" type="radio" name="interestLevel"  id="veryStrongly" value="veryStrongly" /> Very strongly</label>
+    <label for="moderatelyStrong"><input class="inline" type="radio" name="interestLevel" id="moderatelyStrong" value="moderatelyStrong"/> Moderately strong</label>
+    <label for="mildlyStrong"><input class="inline"
+    type="radio" name="interestLevel" id="mildlyStrong" value="mildlyStrong"/> Mildly strong</label>
+    <label for="apathetic"><input class="inline"
+    type="radio" name="interestLevel" id="apathetic" value="apathetic"/> Could not care less</label>
+</fieldset>
+
+<fieldset>
+<p>Choose one and tick the box</p>
+    <label for="pizza"><input class="inline" type="checkbox" value="pizza" id="pizza"> I don't like pineapple on my pizza.</label>
+    <label for="movies"><input class="inline" type="checkbox" value="movies" id="movies"> I love watching movies.</label>
+    <label for="beach"><input class="inline" type="checkbox" value="beach" id="beach"> I love books.</label>
+    <label for="none"><input class="inline" type="checkbox" value="none" id="none" /> I don't want to check any of the other options.</label>
+    </fieldset>
+    <fieldset>
+<label for="comments">Any comments or suggestions? 
+<textarea id="comments" rows="3" cols="30" placeholder="This survey was great..."></textarea>
+</label>
+
+</fieldset>
+<input id="submit" type="submit" value="Submit" formaction="https://formsubmit.co/calmaemilio803@gmail.com" formmethod="post" />
+    </form>
+</body>  
